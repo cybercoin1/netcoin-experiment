@@ -13,7 +13,9 @@ USE_IPV6:=1
 
 LINK:=$(CXX)
 
-DEFS=-DBOOST_SPIRIT_THREADSAFE -D_FILE_OFFSET_BITS=64
+DEFS=-DBOOST_SPIRIT_THREADSAFE -D_FILE_OFFSET_BITS=64 -I/opt/usr/local/ssl/include
+
+OPENSSL_LIB_PATH=/opt/usr/local/ssl/lib
 
 DEFS += $(addprefix -I,$(CURDIR) $(CURDIR)/obj $(BOOST_INCLUDE_PATH) $(BDB_INCLUDE_PATH) $(OPENSSL_INCLUDE_PATH))
 LIBS = $(addprefix -L,$(BOOST_LIB_PATH) $(BDB_LIB_PATH) $(OPENSSL_LIB_PATH))
@@ -121,13 +123,13 @@ OBJS= \
     obj/key.o \
     obj/db.o \
     obj/init.o \
-    obj/bitcoind.o \
+    obj/netcoind.o \
     obj/keystore.o \
     obj/core.o \
     obj/main.o \
     obj/net.o \
     obj/protocol.o \
-    obj/bitcoinrpc.o \
+    obj/netcoinrpc.o \
     obj/rpcdump.o \
     obj/rpcnet.o \
     obj/rpcmining.o \
@@ -147,10 +149,10 @@ OBJS= \
     obj/chainparams.o
 
 
-all: abccoind
+all: netcoind
 
-test check: test_abccoin FORCE
-	./test_abccoin
+test check: test_netcoin FORCE
+	./test_netcoin
 
 #
 # LevelDB support
@@ -178,7 +180,7 @@ obj/%.o: %.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-abccoind: $(OBJS:obj/%=obj/%)
+netcoind: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -190,11 +192,11 @@ obj-test/%.o: test/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-test_abccoin: $(TESTOBJS) $(filter-out obj/init.o obj/abccoind.o,$(OBJS:obj/%=obj/%))
+test_netcoin: $(TESTOBJS) $(filter-out obj/init.o obj/netcoind.o,$(OBJS:obj/%=obj/%))
 	$(LINK) $(xCXXFLAGS) -o $@ $(LIBPATHS) $^ $(TESTLIBS) $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f abccoind test_abccoin
+	-rm -f netcoind test_netcoin
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o
 	-rm -f obj/*.P

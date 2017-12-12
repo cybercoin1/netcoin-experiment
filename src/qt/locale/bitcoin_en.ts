@@ -6,13 +6,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About ABCCoin</source>
-        <translation>About ABCCoin</translation>
+        <source>About NETCoin</source>
+        <translation>About NETCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;ABCCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;ABCCoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;NETCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;NETCoin&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -36,8 +36,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The ABCCoin developers</source>
-        <translation>The ABCCoin developers</translation>
+        <source>The NETCoin developers</source>
+        <translation>The NETCoin developers</translation>
     </message>
 </context>
 <context>
@@ -69,8 +69,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your ABCCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>These are your ABCCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
+        <source>These are your NETCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>These are your NETCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -84,8 +84,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a ABCCoin address</source>
-        <translation>Sign a message to prove you own a ABCCoin address</translation>
+        <source>Sign a message to prove you own a NETCoin address</source>
+        <translation>Sign a message to prove you own a NETCoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -109,8 +109,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified ABCCoin address</source>
-        <translation>Verify a message to ensure it was signed with a specified ABCCoin address</translation>
+        <source>Verify a message to ensure it was signed with a specified NETCoin address</source>
+        <translation>Verify a message to ensure it was signed with a specified NETCoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -124,8 +124,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your ABCCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your ABCCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your NETCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your NETCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -277,8 +277,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>ABCCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your abccoins from being stolen by malware infecting your computer.</source>
-        <translation>ABCCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your abccoins from being stolen by malware infecting your computer.</translation>
+        <source>NETCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your netcoins from being stolen by malware infecting your computer.</source>
+        <translation>NETCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your netcoins from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -376,8 +376,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Show information about ABCCoin</source>
-        <translation>Show information about ABCCoin</translation>
+        <source>Show information about NETCoin</source>
+        <translation>Show information about NETCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -421,13 +421,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-341"/>
-        <source>Send coins to a ABCCoin address</source>
-        <translation>Send coins to a ABCCoin address</translation>
+        <source>Send coins to a NETCoin address</source>
+        <translation>Send coins to a NETCoin address</translation>
     </message>
     <message>
         <location line="+52"/>
-        <source>Modify configuration options for ABCCoin</source>
-        <translation>Modify configuration options for ABCCoin</translation>
+        <source>Modify configuration options for NETCoin</source>
+        <translation>Modify configuration options for NETCoin</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -458,8 +458,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="-183"/>
         <location line="+6"/>
         <location line="+530"/>
-        <source>ABCCoin</source>
-        <translation>ABCCoin</translation>
+        <source>NETCoin</source>
+        <translation>NETCoin</translation>
     </message>
     <message>
         <location line="-536"/>
@@ -485,8 +485,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+23"/>
         <location line="+2"/>
-        <source>&amp;About ABCCoin</source>
-        <translation>&amp;About ABCCoin</translation>
+        <source>&amp;About NETCoin</source>
+        <translation>&amp;About NETCoin</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -506,13 +506,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your ABCCoin addresses to prove you own them</source>
-        <translation>Sign messages with your ABCCoin addresses to prove you own them</translation>
+        <source>Sign messages with your NETCoin addresses to prove you own them</source>
+        <translation>Sign messages with your NETCoin addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified ABCCoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified ABCCoin addresses</translation>
+        <source>Verify messages to ensure they were signed with specified NETCoin addresses</source>
+        <translation>Verify messages to ensure they were signed with specified NETCoin addresses</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -543,15 +543,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-5"/>
         <location line="+5"/>
-        <source>ABCCoin client</source>
-        <translation>ABCCoin client</translation>
+        <source>NETCoin client</source>
+        <translation>NETCoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+143"/>
-        <source>%n active connection(s) to ABCCoin network</source>
+        <source>%n active connection(s) to NETCoin network</source>
         <translation>
-            <numerusform>%n active connection to ABCCoin network</numerusform>
-            <numerusform>%n active connections to ABCCoin network</numerusform>
+            <numerusform>%n active connection to NETCoin network</numerusform>
+            <numerusform>%n active connections to NETCoin network</numerusform>
         </translation>
     </message>
     <message>
@@ -675,8 +675,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid ABCCoin address or malformed URI parameters.</source>
-        <translation>URI can not be parsed! This can be caused by an invalid ABCCoin address or malformed URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid NETCoin address or malformed URI parameters.</source>
+        <translation>URI can not be parsed! This can be caused by an invalid NETCoin address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -690,8 +690,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. ABCCoin can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. ABCCoin can no longer continue safely and will quit.</translation>
+        <source>A fatal error occurred. NETCoin can no longer continue safely and will quit.</source>
+        <translation>A fatal error occurred. NETCoin can no longer continue safely and will quit.</translation>
     </message>
 </context>
 <context>
@@ -756,8 +756,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid ABCCoin address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid ABCCoin address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid NETCoin address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid NETCoin address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -775,8 +775,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+493"/>
         <location line="+12"/>
-        <source>ABCCoin-Qt</source>
-        <translation>ABCCoin-Qt</translation>
+        <source>NETCoin-Qt</source>
+        <translation>NETCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -838,13 +838,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start ABCCoin after logging in to the system.</source>
-        <translation>Automatically start ABCCoin after logging in to the system.</translation>
+        <source>Automatically start NETCoin after logging in to the system.</source>
+        <translation>Automatically start NETCoin after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start ABCCoin on system login</source>
-        <translation>&amp;Start ABCCoin on system login</translation>
+        <source>&amp;Start NETCoin on system login</source>
+        <translation>&amp;Start NETCoin on system login</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -863,8 +863,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the ABCCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the ABCCoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the NETCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the NETCoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -873,8 +873,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the ABCCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connect to the ABCCoin network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
+        <source>Connect to the NETCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connect to the NETCoin network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -948,8 +948,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting ABCCoin.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting ABCCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting NETCoin.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting NETCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -963,8 +963,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show ABCCoin addresses in the transaction list or not.</source>
-        <translation>Whether to show ABCCoin addresses in the transaction list or not.</translation>
+        <source>Whether to show NETCoin addresses in the transaction list or not.</source>
+        <translation>Whether to show NETCoin addresses in the transaction list or not.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1015,8 +1015,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting ABCCoin.</source>
-        <translation>This setting will take effect after restarting ABCCoin.</translation>
+        <source>This setting will take effect after restarting NETCoin.</source>
+        <translation>This setting will take effect after restarting NETCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1034,8 +1034,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+202"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ABCCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the ABCCoin network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NETCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the NETCoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-131"/>
@@ -1098,8 +1098,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+109"/>
-        <source>Cannot start abccoin: click-to-pay handler</source>
-        <translation>Cannot start abccoin: click-to-pay handler</translation>
+        <source>Cannot start netcoin: click-to-pay handler</source>
+        <translation>Cannot start netcoin: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1248,8 +1248,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the ABCCoin-Qt help message to get a list with possible ABCCoin command-line options.</source>
-        <translation>Show the ABCCoin-Qt help message to get a list with possible ABCCoin command-line options.</translation>
+        <source>Show the NETCoin-Qt help message to get a list with possible NETCoin command-line options.</source>
+        <translation>Show the NETCoin-Qt help message to get a list with possible NETCoin command-line options.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1268,13 +1268,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>ABCCoin - Debug window</source>
-        <translation>ABCCoin - Debug window</translation>
+        <source>NETCoin - Debug window</source>
+        <translation>NETCoin - Debug window</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>ABCCoin Core</source>
-        <translation>ABCCoin Core</translation>
+        <source>NETCoin Core</source>
+        <translation>NETCoin Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1283,8 +1283,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the ABCCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the ABCCoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the NETCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the NETCoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1293,8 +1293,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the ABCCoin RPC console.</source>
-        <translation>Welcome to the ABCCoin RPC console.</translation>
+        <source>Welcome to the NETCoin RPC console.</source>
+        <translation>Welcome to the NETCoin RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1478,8 +1478,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a ABCCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Enter a ABCCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a NETCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Enter a NETCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1543,8 +1543,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this ABCCoin address</source>
-        <translation>Sign the message to prove you own this ABCCoin address</translation>
+        <source>Sign the message to prove you own this NETCoin address</source>
+        <translation>Sign the message to prove you own this NETCoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1579,8 +1579,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified ABCCoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified ABCCoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified NETCoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified NETCoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1595,8 +1595,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a ABCCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Enter a ABCCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a NETCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Enter a NETCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1605,8 +1605,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter ABCCoin signature</source>
-        <translation>Enter ABCCoin signature</translation>
+        <source>Enter NETCoin signature</source>
+        <translation>Enter NETCoin signature</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1679,8 +1679,8 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+25"/>
-        <source>The ABCCoin developers</source>
-        <translation>The ABCCoin developers</translation>
+        <source>The NETCoin developers</source>
+        <translation>The NETCoin developers</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2232,8 +2232,8 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+98"/>
-        <source>ABCCoin version</source>
-        <translation>ABCCoin version</translation>
+        <source>NETCoin version</source>
+        <translation>NETCoin version</translation>
     </message>
     <message>
         <location line="+103"/>
@@ -2242,8 +2242,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or abccoind</source>
-        <translation>Send command to -server or abccoind</translation>
+        <source>Send command to -server or netcoind</source>
+        <translation>Send command to -server or netcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2262,13 +2262,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: abccoin.conf)</source>
-        <translation>Specify configuration file (default: abccoin.conf)</translation>
+        <source>Specify configuration file (default: netcoin.conf)</source>
+        <translation>Specify configuration file (default: netcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: abccoind.pid)</source>
-        <translation>Specify pid file (default: abccoind.pid)</translation>
+        <source>Specify pid file (default: netcoind.pid)</source>
+        <translation>Specify pid file (default: netcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2345,24 +2345,24 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=abccoinrpc
+rpcuser=netcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;ABCCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;NETCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=abccoinrpc
+rpcuser=netcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;ABCCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;NETCoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2377,8 +2377,8 @@ for example: alertnotify=echo %%s | mail -s &quot;ABCCoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. ABCCoin is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. ABCCoin is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. NETCoin is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. NETCoin is probably already running.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2427,8 +2427,8 @@ for example: alertnotify=echo %%s | mail -s &quot;ABCCoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ABCCoin will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ABCCoin will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong NETCoin will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong NETCoin will not work properly.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2872,13 +2872,13 @@ for example: alertnotify=echo %%s | mail -s &quot;ABCCoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of ABCCoin</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of ABCCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of NETCoin</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of NETCoin</translation>
     </message>
     <message>
         <location line="+94"/>
-        <source>Wallet needed to be rewritten: restart ABCCoin to complete</source>
-        <translation>Wallet needed to be rewritten: restart ABCCoin to complete</translation>
+        <source>Wallet needed to be rewritten: restart NETCoin to complete</source>
+        <translation>Wallet needed to be rewritten: restart NETCoin to complete</translation>
     </message>
     <message>
         <location line="-96"/>
@@ -2937,8 +2937,8 @@ for example: alertnotify=echo %%s | mail -s &quot;ABCCoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. ABCCoin is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. ABCCoin is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. NETCoin is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. NETCoin is probably already running.</translation>
     </message>
     <message>
         <location line="+64"/>

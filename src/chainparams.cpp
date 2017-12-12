@@ -24,18 +24,31 @@ public:
     CMainParams() {
         // The message start string is designed to be unlikely to occur in normal data.
         pchMessageStart[0] = 0x04;
-        pchMessageStart[1] = 0x04;
-        pchMessageStart[2] = 0x04;
-        pchMessageStart[3] = 0x04;
-        nDefaultPort = 5530;
-        nRPCPort = 5531;
+        pchMessageStart[1] = 0x05;
+        pchMessageStart[2] = 0x06;
+        pchMessageStart[3] = 0x07;
+        nDefaultPort = 7730;
+        nRPCPort = 7731;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
         nSubsidyHalvingInterval = 100000;
 
         // Build the genesis block. Note that the output of the genesis coinbase cannot
         // be spent as it did not originally exist in the database.
+
+        /*
+         * Genesis block
+         * 000004aa0e982660a9861d7b102cbc2a395f03b3169529a05b8fb6a8f51dcae8
+		 * e7072e2c0f4bdcf9c0904f06e5dee9ea1bdc08f6627f187bb3e2c585d930f6d7
+		 * 1e0fffff
+		 * CBlock(hash=000004aa0e982660a9861d7b102cbc2a395f03b3169529a05b8fb6a8f51dcae8, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=e7072e2c0f4bdcf9c0904f06e5dee9ea1bdc08f6627f187bb3e2c585d930f6d7, nTime=1512761506, nBits=1e0fffff, nNonce=868104, vtx=1)
+  	  	 * 	  CTransaction(hash=e7072e2c0f, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    	 *		CTxIn(COutPoint(0000000000, 4294967295), coinbase 04ffff001d01043b4242432030382f4465632f32303137204d696c6c696f6e73202773746f6c656e2720696e204e6963654861736820426974636f696e206865697374)
+    	 *		CTxOut(error)
+  	  	 * 	vMerkleTree: e7072e2c0f4bdcf9c0904f06e5dee9ea1bdc08f6627f187bb3e2c585d930f6d7
+         *
+         */
   
-        const char* pszTimestamp = "ABCCoin";
+        const char* pszTimestamp = "BBC 08/Dec/2017 Millions 'stolen' in NiceHash Bitcoin heist";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -46,16 +59,16 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1300000000;
+        genesis.nTime    = 1512761506;
         genesis.nBits    = 0x1e0fffff;
-        genesis.nNonce   = 0;
+        genesis.nNonce   = 868104;
         
         //// debug print
         hashGenesisBlock = genesis.GetHash();
-        //while (hashGenesisBlock > bnProofOfWorkLimit.getuint256()){
-        //    if (++genesis.nNonce==0) break;
-        //    hashGenesisBlock = genesis.GetHash();
-        //}
+//        while (hashGenesisBlock > bnProofOfWorkLimit.getuint256()){
+//            if (++genesis.nNonce==0) break;
+//            hashGenesisBlock = genesis.GetHash();
+//        }
 
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
@@ -63,13 +76,13 @@ public:
         genesis.print();
         
         
-        assert(hashGenesisBlock == uint256("0x"));
-        assert(genesis.hashMerkleRoot == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x000004aa0e982660a9861d7b102cbc2a395f03b3169529a05b8fb6a8f51dcae8"));
+        assert(genesis.hashMerkleRoot == uint256("0xe7072e2c0f4bdcf9c0904f06e5dee9ea1bdc08f6627f187bb3e2c585d930f6d7"));
 
-        vSeeds.push_back(CDNSSeedData("someaddress.com or IP addy", "someaddress.com"));
+        vSeeds.push_back(CDNSSeedData("mrrobot-hacks.com", "mrrobot-hacks.com"));
 
 
-        base58Prefixes[PUBKEY_ADDRESS] = 36;
+        base58Prefixes[PUBKEY_ADDRESS] = 23;
         base58Prefixes[SCRIPT_ADDRESS] = 30;
         base58Prefixes[SECRET_KEY] = 224;
 
@@ -134,7 +147,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        // vSeeds.push_back(CDNSSeedData("abccoin.test", "test.abccoin.org"));
+        // vSeeds.push_back(CDNSSeedData("netcoin.test", "test.netcoin.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = 130;
         base58Prefixes[SCRIPT_ADDRESS] = 30;

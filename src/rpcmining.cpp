@@ -6,7 +6,7 @@
 #include "chainparams.h"
 #include "db.h"
 #include "init.h"
-#include "bitcoinrpc.h"
+#include "netcoinrpc.h"
 
 using namespace json_spirit;
 using namespace std;
@@ -111,10 +111,10 @@ Value getwork(const Array& params, bool fHelp)
             "If [data] is specified, tries to solve the block and returns true if it was successful.");
 
     if (vNodes.empty())
-        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "ABCCoin is not connected!");
+        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "NETCoin is not connected!");
 
     if (IsInitialBlockDownload())
-        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "ABCCoin is downloading blocks...");
+        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "NETCoin is downloading blocks...");
 
     typedef map<uint256, pair<CBlock*, CScript> > mapNewBlock_t;
     static mapNewBlock_t mapNewBlock;    // FIXME: thread safety
@@ -252,10 +252,10 @@ Value getblocktemplate(const Array& params, bool fHelp)
         throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid mode");
 
     if (vNodes.empty())
-        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "ABCCoin is not connected!");
+        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "NETCoin is not connected!");
 
     if (IsInitialBlockDownload())
-        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "ABCCoin is downloading blocks...");
+        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "NETCoin is downloading blocks...");
 
     // Update block
     static unsigned int nTransactionsUpdatedLast;

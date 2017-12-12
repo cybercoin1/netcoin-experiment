@@ -1,7 +1,7 @@
 src/*.exe
-src/abccoin
-src/abccoind
-src/test_abccoin
+src/netcoin
+src/netcoind
+src/test_netcoin
 .*.swp
 *.*~*
 *.bak
@@ -9,17 +9,17 @@ src/test_abccoin
 *.orig
 *.o
 *.patch
-.abccoin
+.netcoin
 
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-abccoin-qt
+netcoin-qt
 abcCoin-Qt.app
 
 # Unit-tests
 Makefile.test
-abccoin-qt_test
+netcoin-qt_test
 
 # Resources cpp
 qrc_*.cpp

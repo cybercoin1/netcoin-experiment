@@ -13,6 +13,8 @@
 #include <vector>
 
 #include <boost/filesystem.hpp>
+
+#define HAVE_CXX_STDHEADERS
 #include <db_cxx.h>
 
 class CAddrMan;

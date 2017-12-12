@@ -4,7 +4,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "init.h"
-#include "bitcoinrpc.h"
+#include "netcoinrpc.h"
 #include <boost/algorithm/string/predicate.hpp>
 
 void DetectShutdownThread(boost::thread_group* threadGroup)
@@ -35,7 +35,7 @@ bool AppInit(int argc, char* argv[])
         //
         // Parameters
         //
-        // If Qt is used, parameters/abccoin.conf are parsed in qt/bitcoin.cpp's main()
+        // If Qt is used, parameters/netcoin.conf are parsed in qt/bitcoin.cpp's main()
         ParseParameters(argc, argv);
         if (!boost::filesystem::is_directory(GetDataDir(false)))
         {
@@ -46,13 +46,13 @@ bool AppInit(int argc, char* argv[])
 
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
-            // First part of help message is specific to abccoind / RPC client
-            std::string strUsage = _("ABCCoin version") + " " + FormatFullVersion() + "\n\n" +
+            // First part of help message is specific to netcoind / RPC client
+            std::string strUsage = _("NETCoin version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  abccoind [options]                     " + "\n" +
-                  "  abccoind [options] <command> [params]  " + _("Send command to -server or abccoind") + "\n" +
-                  "  abccoind [options] help                " + _("List commands") + "\n" +
-                  "  abccoind [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  netcoind [options]                     " + "\n" +
+                  "  netcoind [options] <command> [params]  " + _("Send command to -server or netcoind") + "\n" +
+                  "  netcoind [options] help                " + _("List commands") + "\n" +
+                  "  netcoind [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 
@@ -62,7 +62,7 @@ bool AppInit(int argc, char* argv[])
 
         // Command-line RPC
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "abccoin:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "netcoin:"))
                 fCommandLine = true;
 
         if (fCommandLine)
@@ -129,7 +129,7 @@ int main(int argc, char* argv[])
     bool fRet = false;
     fHaveGUI = false;
 
-    // Connect abccoind signal handlers
+    // Connect netcoind signal handlers
     noui_connect();
 
     fRet = AppInit(argc, argv);

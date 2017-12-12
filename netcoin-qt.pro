@@ -1,6 +1,6 @@
 TEMPLATE = app
-TARGET = abccoin-qt
-macx:TARGET = "ABCCoin-Qt"
+TARGET = netcoin-qt
+macx:TARGET = "NETCoin-Qt"
 VERSION = 0.9.0
 INCLUDEPATH += src src/json src/qt
 QT += core gui network
@@ -187,7 +187,7 @@ HEADERS += src/qt/bitcoingui.h \
     src/qt/walletview.h \
     src/qt/walletstack.h \
     src/qt/walletframe.h \
-    src/bitcoinrpc.h \
+    src/netcoinrpc.h \
     src/qt/overviewpage.h \
     src/qt/csvmodelwriter.h \
     src/crypter.h \
@@ -258,7 +258,7 @@ SOURCES += src/qt/bitcoin.cpp \
     src/qt/walletview.cpp \
     src/qt/walletstack.cpp \
     src/qt/walletframe.cpp \
-    src/bitcoinrpc.cpp \
+    src/netcoinrpc.cpp \
     src/rpcdump.cpp \
     src/rpcnet.cpp \
     src/rpcmining.cpp \
@@ -310,7 +310,7 @@ SOURCES += src/qt/test/test_main.cpp \
 HEADERS += src/qt/test/uritests.h
 DEPENDPATH += src/qt/test
 QT += testlib
-TARGET = abccoin-qt_test
+TARGET = netcoin-qt_test
 DEFINES += BITCOIN_QT_TEST
   macx: CONFIG -= app_bundle
 }
